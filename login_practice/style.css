@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D2CBCB;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-color: #ffff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links > ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links > ul > li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+    place-content: center;
+    min-height: 680px;
+    padding: 40px 0;
+}
+
+.form-region {
+    background-color: #B9B2B2;
+    min-height: 380px;
+    min-width: max-content;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-pic {
+    text-align: center;
+    border: none;
+}
+
+.profile-pic > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5rem;
+}
+
+#login-text {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form {
+    display: grid;
+    gap: 20px;
+}
+
+input, button {
+    min-width: 280px;
+    height: 40px;
+}
+
+input {
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.submit-button {
+    background-color: #6F51E5;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links > div {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.password {
+    text-decoration: underline;
+}
+
+.footer {
+    display: grid;
+    place-content: center;
+    background-color: rgb(149, 149, 149);
+    min-height: 100px;
+}
